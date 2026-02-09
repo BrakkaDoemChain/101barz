@@ -17,7 +17,7 @@ This is Recipe 01 because after you reset your kitchen (Recipe 00), the first re
 - 2 large yellow onions (Maillard gold when caramelized)
 
 **The Protein (Old-School Preservation)**
-- 1 lb salt-cured bacon or speck (read labels: NO sodium nitrite artificial color enhancers)
+- 1 lb salt-cured bacon or spek (read labels: NO sodium nitrite artificial color enhancers)
 - OR 1 lb naturally smoked fish (mackerel, herring — the North Sea classics)
 - Optional: 1 lb grass-fed beef stew meat (if you're not going full pescatarian)
 
@@ -39,10 +39,10 @@ This is Recipe 01 because after you reset your kitchen (Recipe 00), the first re
 ## Instructions
 
 1. **The Captain's Call — Mise en Place**  
-   Peel and chop all vegetables into rough, bite-sized chunks. This is sailor food, not fine dining — rustic is the point. Dice bacon/speck if using. Set aside.
+   Peel and chop all vegetables into rough, bite-sized chunks. This is sailor food, not fine dining — rustic is the point. Dice bacon/spek if using. Set aside.
 
 2. **Heave Ho the Fat — Start the Base**  
-   In a large Dutch oven or heavy pot (ideally cast iron — tools that last centuries), melt butter or duck fat over medium heat. Add chopped bacon/speck first. Stir and render the fat for 3-4 minutes until edges crisp and you smell the smoke of old-world preservation.
+   In a large Dutch oven or heavy pot (ideally cast iron — tools that last centuries), melt butter or duck fat over medium heat. Add chopped bacon/spek first. Stir and render the fat for 3-4 minutes until edges crisp and you smell the smoke of old-world preservation.
 
 3. **The Onion Anchor**  
    Add diced onions to the pot. Stir, scraping up browned bits. Let onions caramelize slowly for 8-10 minutes. No rush — this is where natural sweetness builds. Watch them turn from white to translucent to golden-brown. This is Maillard magic, not food coloring.
