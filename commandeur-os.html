@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>COMMANDEUR OS | OPTION D</title>
+    <style>
+        :root {
+            --gold: #ffd700;
+            --neon-blue: #00f2ff;
+            --blood-red: #8b0000;
+            --interface-bg: rgba(10, 10, 15, 0.9);
+        }
+
+        body {
+            background: #000;
+            color: #fff;
+            font-family: 'Consolas', monospace;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* De Vogelvlucht Plane */
+        #world-grid {
+            position: relative;
+            width: 1200px;
+            height: 800px;
+            background: 
+                linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
+                linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+            transform: perspective(1000px) rotateX(60deg) rotateZ(-45deg);
+            border: 2px solid #222;
+        }
+
+        /* Healware Questlog - Rechtsboven in de viewport */
+        #quest-overlay {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 280px;
+            background: var(--interface-bg);
+            border: 2px solid #444;
+            padding: 15px;
+            box-shadow: 5px 5px 0px #000;
+            z-index: 100;
+        }
+
+        .quest-title { color: var(--gold); font-weight: bold; border-bottom: 1px solid #444; margin-bottom: 10px; }
+        .objective { font-size: 0.85em; margin: 5px 0; color: #ccc; }
+        .completed { color: #555; text-decoration: line-through; }
+
+        /* De Nodes (Sleutels) */
+        .asset-node {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: rgba(0, 242, 255, 0.1);
+            border: 1px solid var(--neon-blue);
+            transform: rotateZ(45deg) rotateX(-60deg); /* Counter-rotation */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 10px;
+            transition: 0.3s;
+            cursor: help;
+        }
+
+        .asset-node:hover {
+            background: var(--neon-blue);
+            color: #000;
+            box-shadow: 0 0 20px var(--neon-blue);
+        }
+
+        #node-github { top: 200px; left: 300px; }
+        #node-pump { top: 400px; left: 600px; border-color: #00ff00; }
+        #node-crypt { top: 100px; left: 800px; border-color: var(--blood-red); }
+
+        /* 101Barz Ticker */
+        #ticker {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: var(--blood-red);
+            padding: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            font-size: 12px;
+        }
+
+        .marquee {
+            display: inline-block;
+            animation: scroll 20s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+
+<div id="quest-overlay">
+    <div class="quest-title">LOG: HEALWARE v1.0.1</div>
+    <div class="objective">● Defeat the Fjord Lusus (0/1)</div>
+    <div class="objective">● Sync 'mama appelsap' internet keys</div>
+    <div class="objective completed">● Blus de GitHub brandhaard</div>
+    <div class="objective">● Option D: Escape the Simulation</div>
+    <hr>
+    <div class="quest-title" style="color: var(--neon-blue)">AH MA - INDEX</div>
+    <div class="objective">[Zoutkegel] <span style="float:right">14g 22s</span></div>
+    <div class="objective">[Bintjes & Pindies] <span style="float:right">88g 00s</span></div>
+    <div class="objective">[Meskina-Token] <span style="float:right">LOW</span></div>
+</div>
+
+<div id="world-grid">
+    <div class="asset-node" id="node-github">GITHUB<br>BRANDHAARD</div>
+    <div class="asset-node" id="node-pump">PUMP.FUN<br>MOONSHOT</div>
+    <div class="asset-node" id="node-crypt">CRYPT OF<br>CATACOMBE</div>
+</div>
+
+<div id="ticker">
+    <div class="marquee">
+        +++ 101BARZ VIBE +++ MELISSE IS DOOD VOOR 44J +++ BRITT DEKKER SPECIAAL ICE TERUG +++ OPTIE D GEACTIVEERD +++ GEEN PAMPIROUIE HIER +++ STAP UIT DE BUS +++
+    </div>
+</div>
+
+</body>
+</html>
